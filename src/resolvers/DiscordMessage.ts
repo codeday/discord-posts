@@ -16,7 +16,7 @@ enum ResizeStrategy {
 registerEnumType(ResizeStrategy, { name: 'ResizeStrategy' });
 
 @ObjectType()
-export class Post {
+export class DiscordMessage {
   @Field(() => String)
   id: string;
 
